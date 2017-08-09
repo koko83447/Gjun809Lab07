@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.android.lab07_activities.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_color"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:text="顏色未設定"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="選擇顏色"
+        android:layout_below="@+id/tv_color"
+        android:layout_centerHorizontal="true"
+        android:onClick="selectColor"/>
+
+</RelativeLayout>
