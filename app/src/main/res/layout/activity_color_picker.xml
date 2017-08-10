@@ -10,8 +10,8 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true">
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -19,7 +19,7 @@
         android:orientation="vertical">
 
     <RadioButton
-        android:id="@+id/holo_red_light"
+        android:id="@+id/radio_holo_red_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="holo_red_light"
@@ -27,10 +27,11 @@
         android:buttonTint="@android:color/holo_red_light"
         android:textAppearance="@android:style/TextAppearance.Large"
         android:textColor="@android:color/holo_red_light"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:checked="true"/>
 
     <RadioButton
-        android:id="@+id/holo_orange_light"
+        android:id="@+id/radio_holo_orange_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="holo_orange_light"
