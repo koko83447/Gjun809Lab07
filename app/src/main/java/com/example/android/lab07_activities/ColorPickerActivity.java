@@ -37,15 +37,19 @@ public class ColorPickerActivity extends Activity {
         switch (mColorName.toString()){
             case "holo_red_light":
                 radio = (RadioButton)findViewById(R.id.radio_holo_red_light);
+                Log.d(TAG,"holo_red_light");
                 break;
-            case "holo_orange_dark":
+            case "holo_orange_light":
                 radio = (RadioButton)findViewById(R.id.radio_holo_orange_light);
+                Log.d(TAG,"holo_orange_dark");
                 break;
             case "holo_green_light":
                 radio = (RadioButton)findViewById(R.id.holo_green_light);
+                Log.d(TAG,"holo_green_light");
                 break;
-            case "holo_blue_dark":
+            case "holo_blue_light":
                 radio = (RadioButton)findViewById(R.id.holo_blue_light);
+                Log.d(TAG,"holo_blue_dark");
                 break;
         }
         if (radio != null){
